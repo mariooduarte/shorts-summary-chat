@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shorts Summary Chat</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="chat-container">
+        <div id="messages-container"></div>
+      </div>
+      <div id="app-footer">
+        <form id="form">
+          <input
+            type="url"
+            autocomplete="off"
+            id="url"
+            placeholder="Insira a URL do vídeo aqui"
+          />
+          <button id="form-button">
+            <i class="ph-fill ph-paper-plane-right"></i>
+          </button>
+          <div id="form-loading" class="loading hidden">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </form>
+        <span>
+          Desenvolvido com<i class="ph-fill ph-heart"></i>por
+          <a href="http://github.com/mariooduarte" target="_blank">
+            Mário Duarte.
+          </a>
+        </span>
+      </div>
+    </div>
+    <script type="module" src="web/main.js"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </body>
+</html>

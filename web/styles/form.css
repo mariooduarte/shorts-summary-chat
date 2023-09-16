@@ -1,0 +1,99 @@
+#app-footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+#app-footer > span {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 12px;
+  color: var(--colors-gray-low);
+}
+
+#app-footer > span > a {
+  color: var(--colors-gray-low);
+}
+
+#form {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid var(--colors-border-base);
+  background-color: var(--colors-gray-mid);
+}
+
+#form > input {
+  padding: 0 20px;
+  color: var(--colors-text-base);
+  border: none;
+  height: 60px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+#form > button {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+
+  border: none;
+  cursor: pointer;
+
+  background-color: transparent;
+  color: var(--colors-gray-low);
+  font-size: 25px;
+  transition: color 0.3s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+#form > .loading {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  gap: 3px;
+}
+
+#form > .loading > span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--colors-gray-low);
+
+  /* animation: bounce 1s cubic-bezier(0.6, 0, 0.8, 0.1); */
+  animation: bounce 0.9s cubic-bezier(1, 0, 0.7, 0);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#form > .hidden {
+  display: none;
+}
+
+#form > .loading > span:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+#form > .loading > span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+#form > .loading > span:nth-child(3) {
+  animation-delay: 0.3s;
+}
