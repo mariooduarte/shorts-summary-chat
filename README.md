@@ -47,6 +47,6 @@ $ npm run server
 
 ## Licença
 
-Este projeto esta sobe a licença MIT.
+Este projeto está sob a licença MIT.
 
-Feito com ❤️ por **Mário Duarte** 👋🏻 [Get in touch!](https://github.com/MariooDuarte)
+Feito com ❤️ por **Mário Duarte**! 👋🏻 [Get in touch!](https://github.com/MariooDuarte)
