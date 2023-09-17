@@ -6,7 +6,7 @@ Um chatbot que resume Shorts do YouTube.
 
 ## Sobre o projeto
 
-Shorts Summary Chat é uma aplicação responsiva em formato de chat que permite aos usuários compartilharem a URL de um Shorts e, em troca, receberem um breve resumo do vídeo em questão.
+Shorts Summary Chat é uma aplicação responsiva em formato de chat que permite aos usuários compartilharem a URL de um Shorts e, em troca, receberem um breve resumo do conteúdo do vídeo gerado por inteligência artificial.
 
 Este projeto surgiu durante a realização do evento NLW IA, organizado pela Rocketseat. Inicialmente, a proposta era criar uma aplicação simples e estática, porém, decidi me desafiar ainda mais ao buscar inspiração na construção visual de chatbots famosos, como o Chat GPT e o Bing Chat, para o desenvolvimento desta aplicação.
 
