@@ -2,7 +2,7 @@
 
 Um chatbot que resume Shorts do YouTube.
 
-![Gif mostrando o projeto.](public/gif.gif)
+![Gif mostrando o projeto.](public/aplication.gif)
 
 ## Sobre o projeto
 
