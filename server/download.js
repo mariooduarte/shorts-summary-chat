@@ -3,6 +3,11 @@ import fs from "fs"
 
 export const download = (videoId) =>
   new Promise((resolve, reject) => {
+    const tmpFolder = "./tmp"
+    if (!fs.existsSync(tmpFolder)) {
+      fs.mkdirSync(tmpFolder)
+    }
+
     const videoURL = "https://www.youtube.com/shorts/" + videoId
     console.log("Realizando o dowload do vídeo:", videoId)
 
