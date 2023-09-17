@@ -30,7 +30,7 @@ Antes de começar, você precisa ter instalado em sua máquina as ferramentas [G
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/mariooduarte/shorts-summary-chat
+$ git clone https://github.com/mariooduarte/shorts-summary-chat.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd shorts-summary-chat
