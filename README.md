@@ -1,4 +1,4 @@
-# Shorts Summary Chat <a href="#licença"><img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000"></a>
+# Shorts Summary Chat
 
 Um chatbot que resume Shorts do YouTube.
 
@@ -6,11 +6,11 @@ Um chatbot que resume Shorts do YouTube.
 
 ## Sobre o projeto
 
-Shorts Summary Chat é uma aplicação responsiva em formato de chat que permite aos usuários compartilharem a URL de um Shorts e, em troca, receberem um breve resumo do vídeo em questão.
+Shorts Summary Chat é uma aplicação responsiva em formato de chat que permite aos usuários compartilharem a URL de um Shorts e, em troca, receberem um breve resumo do conteúdo do vídeo gerado por inteligência artificial.
 
 Este projeto surgiu durante a realização do evento NLW IA, organizado pela Rocketseat. Inicialmente, a proposta era criar uma aplicação simples e estática, porém, decidi me desafiar ainda mais ao buscar inspiração na construção visual de chatbots famosos, como o Chat GPT e o Bing Chat, para o desenvolvimento desta aplicação.
 
-## Tecnologias
+## Tecnologias utilizadas
 
 Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 <br>
@@ -47,6 +47,6 @@ $ npm run server
 
 ## Licença
 
-Este projeto esta sobe a licença MIT.
+Este projeto está sob a licença MIT.
 
-Feito com ❤️ por **Mário Duarte** 👋🏻 [Get in touch!](https://github.com/MariooDuarte)
+Feito com ❤️ por **Mário Duarte**! 👋🏻 [Get in touch!](https://github.com/MariooDuarte)
